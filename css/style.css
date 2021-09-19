@@ -1,0 +1,90 @@
+
+
+ /*HEADER COLOR */
+
+
+
+
+
+ /*MENU */
+
+    .fixedtop{background-color:white;}
+    .black{color: black;}
+
+    .menu{font-weight: bolder;font-size: 14px;padding: 3px;margin-left: 26%;font-weight:bold;}
+ /*MENU media query */
+
+    @media screen and (max-width: 991px) {
+      .menu{font-weight: 500;font-size: 15px;text-align: right;}
+      .btns{display: none;}
+      .bg2{background-image: url(img/Call-to-action.jpg);background-position: center;width: 100%;background-size: cover;height: 80vh;}
+    }
+ /*MENU button*/
+
+    .btns{background-color: rgba(0,0,0,1);border-radius: 3%;white-space: nowrap; font-weight: 700;padding: 8px 10px 8px 10px;font-size: 13px;border: none;}
+    .white{color: white;}
+   .menu a:hover{color : grey;border: 1px;}
+ 
+   .gray{color: #cccccc;}
+
+
+ /*seaction 2 */
+   .bg{background-color: rgb(34, 33, 33);color: white;padding: 7% 30px 7% 60px;}
+.bg h1{font-size: 53px;font-weight: bolder;}
+
+
+.a{font-size: 15px;font-weight: bolder;}
+
+.a:before {
+    content: '';
+    display: inline-block;
+    border-bottom: 2px solid;
+    width: 2.5rem;
+    margin-right: 1.125rem;
+    vertical-align: middle;
+    transform-origin: center left;
+    transition: transform .3s cubic-bezier(.4,0,.2,1),-webkit-transform .3s cubic-bezier(.4,0,.2,1);
+}
+
+.headerimg{width: 100%;height: 100%}
+
+
+ /*seaction 3 */
+
+.trendy h1{font-size: 45px;font-weight: bolder;color: black;}
+.trendy p{font-size: 16px;color: gray;}
+.trendy span{ color:#383838;}
+
+
+
+ /*seaction 4 */
+ .mgargin{margin-top: 25%}
+
+.bio{background-color: rgb(252, 228, 231);padding: 7% 6% 6% 6%;}
+.about{background-color: white;}
+
+
+ /*seaction 5 */
+
+
+.makeover{position: absolute;bottom: 35%;left: 30%;font-size: 35px;font-weight: 200;}
+.background{background: black;}
+.opicity{opacity: 0.4;}
+
+
+ /*seaction 8 */
+
+.review{padding: 08% 14% 0px 14%;border-top: 3px outset;}
+.review p{color: rgb(160, 160, 160);font-weight: 700;font-size: 13px;}
+
+.bg2{background-image: url(../img/Call-to-action.jpg);background-position: center;width: 100%;padding: 19%;}
+
+
+ /*seaction 12 */
+
+form input{padding: 10px;width: 108%;border-top: none;border-left: none;border-right: none;border-color:rgba(221,221,221,1);
+   color: rgba(34,34,34,1);background-color: transparent;font-size: 14px;outline: none;}
+
+
+   
+.icon{font-size: 40px;}
